@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var passwordTF: UITextField!
     @IBOutlet weak var emailTF: UITextField!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         authenticateByFaceTouchID()
