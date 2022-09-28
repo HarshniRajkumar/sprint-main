@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>657116828160-8l5aohrn17avjq4rf22euqdikhhqqc0f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.657116828160-8l5aohrn17avjq4rf22euqdikhhqqc0f</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDTtv0F5Q-J91epScVhkCsYeg7a7XUsrDs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>657116828160</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.capgemini.sprint2</string>
+	<key>PROJECT_ID</key>
+	<string>sprint2-fc559</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sprint2-fc559.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:657116828160:ios:0d87095ded1ee04e303ee5</string>
+</dict>
+</plist>
