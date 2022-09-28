@@ -29,8 +29,10 @@ class ViewController: UIViewController {
     func authenticateByFaceTouchID(){
         let context = LAContext()
         var error: NSError?
+        
         //providing reason string
         let reasonStr = "Identify yourself"
+        
         //analysing the biometrics of the owner user
         if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error){
             context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reasonStr){
@@ -39,6 +41,7 @@ class ViewController: UIViewController {
                 
         //providing if else condition for the authorization:
         if success{
+            
             //show alert message
                     self?.showAlert(msgStr: "Authentication done successfully",title: "Success")
                 }else{
@@ -49,6 +52,7 @@ class ViewController: UIViewController {
         }
     
         else{
+            
             //show alert message:
             showAlert(msgStr: "No biometric authentication available", title : "Error")
             
