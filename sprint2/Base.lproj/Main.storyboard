@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uaE-ax-wit">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QkV-pT-e92">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -409,18 +409,18 @@
         <scene sceneID="tF5-Pb-Bd0">
             <objects>
                 <viewController storyboardIdentifier="Mapvc" id="tj0-1t-rAm" customClass="MapViewController" customModule="sprint2" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fy7-Pr-PYf">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="fy7-Pr-PYf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="cXH-mN-dYD">
-                                <rect key="frame" x="0.0" y="44" width="414" height="468"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="cXH-mN-dYD">
+                                <rect key="frame" x="0.0" y="44" width="417.66666666666669" height="468"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="cXH-mN-dYD" secondAttribute="height" multiplier="414:553" id="f9d-OY-rab"/>
                                 </constraints>
                             </mapView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Hey lovv! Order you bag of goodness and keep shopping with us!Have a good day!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7Bz-PH-M9t">
-                                <rect key="frame" x="87" y="557" width="240" height="130"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Hey lovv! Order you bag of goodness and keep shopping with us!Have a good day!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7Bz-PH-M9t">
+                                <rect key="frame" x="86.999999999999986" y="557" width="243.66666666666663" height="130"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="7Bz-PH-M9t" secondAttribute="height" multiplier="15:8" id="AAy-YG-gml"/>

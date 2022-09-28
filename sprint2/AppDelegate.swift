@@ -9,7 +9,7 @@ import UIKit
 import CoreData
 import Firebase
 import MapKit
-
+import RhNotificationFramework
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
